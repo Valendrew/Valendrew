@@ -2,7 +2,7 @@
 
 AI Computer Vision Engineer working across model development, geometric vision and inference systems. I build evaluation pipelines and practical tools for applied ML and operational R&D workflows.
 
-[Portfolio](https://valendrew.github.io/) · [Read CV](https://valendrew.github.io/cv/) · [LinkedIn](https://www.linkedin.com/in/andrea-valente0) · [Email](mailto:andrea.valente99@gmail.com)
+[Portfolio](https://valendrew.github.io/) · [Read CV](https://valendrew.github.io/cv/) · [LinkedIn](https://www.linkedin.com/in/andrea-valente0)
 
 ## Selected public projects
 
