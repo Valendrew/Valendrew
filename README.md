@@ -2,7 +2,7 @@
 
 AI Computer Vision Engineer working across model development, geometric vision and inference systems. I build evaluation pipelines and practical tools for applied ML and operational R&D workflows.
 
-I like building things when I have a real problem of my own to fix, and I usually end up making them public ([relevant xkcd](https://xkcd.com/1319/)).
+I like building things when I have a [stupid real problem to fix]([url](https://xkcd.com/1319/)).
 
 [Portfolio](https://valendrew.github.io/) · [Read CV](https://valendrew.github.io/cv/) · [LinkedIn](https://www.linkedin.com/in/andrea-valente0)
 
