@@ -2,34 +2,36 @@
 
 AI Computer Vision Engineer working across model development, geometric vision and inference systems. I build evaluation pipelines and practical tools for applied ML and operational R&D workflows.
 
+I like building things when I have a real problem of my own to fix, and I usually end up making them public ([relevant xkcd](https://xkcd.com/1319/)).
+
 [Portfolio](https://valendrew.github.io/) · [Read CV](https://valendrew.github.io/cv/) · [LinkedIn](https://www.linkedin.com/in/andrea-valente0)
 
 ## Selected public projects
 
 ### [Counterfactual explanations](https://github.com/Valendrew/counterfactual-explanations)
 
-`Python` · `OMLT` · `Pyomo` · `CPLEX` · `DiCE` · `Genetic search`
+`Python` · `PyTorch` · `OMLT` · `Pyomo` · `CPLEX` · `DiCE`
 
-Co-developed an academic comparison of counterfactual explanations for smartphone price-class predictions: what feature changes would lead the model to a different class? The project compares optimisation with OMLT/Pyomo/CPLEX against DiCE, including genetic search for neural networks.
+What would a phone need to change for a price classifier to put it in another price range? The project encodes a PyTorch classifier as mixed-integer constraints (OMLT, Pyomo, CPLEX) and compares the resulting counterfactual explanations with DiCE's genetic search on validity, sparsity and realism. An interactive demo (FastAPI, Vue) shows which features change.
 
 [Demo repository](https://github.com/Valendrew/counterfactual-demo)
 
-### [NLP: POS tagging & abstractive QA](https://github.com/Valendrew/pos-tagging-abstractive-qa)
+### [Rectangular circuit placement (VLSI)](https://github.com/Valendrew/vlsi-design)
 
-`Jupyter Notebook` · `GloVe` · `BiLSTM / BiGRU` · `TinyBERT` · `DistilRoBERTa` · `CoQA`
+`Python` · `MiniZinc` · `Constraint programming` · `SMT` · `MIP` · `Strip packing`
 
-Contributed to comparisons of recurrent part-of-speech taggers and transformer encoder-decoder question-answering models. POS experiments compare frozen GloVe embeddings with BiLSTM, BiGRU and dual-layer variants; QA combines TinyBERT and DistilRoBERTa on CoQA, varying seeds and conversation history. QA results remained weak under a three-epoch, hardware-limited training budget; unanswerable questions were excluded.
+Places rectangular circuits on a plate of fixed width without overlaps, keeping the plate as short as possible. The same problem is modelled in constraint programming (MiniZinc), SMT (Z3, CVC4) and mixed-integer programming (PuLP, CPLEX), with a shared Python harness that compares them on 40 instances.
 
-### [VLSI design](https://github.com/Valendrew/vlsi-design)
+### [Comparative argument retrieval](https://github.com/Valendrew/argument-retrieval-comparative-questions)
 
-`Python` · `MiniZinc` · `Constraint programming` · `Chuffed / Gecode` · `Strip packing`
+`Python` · `Pyserini` · `FAISS` · `MonoT5` · `DistilBERT`
 
-Contributed to a university circuit-placement project that minimises plate height while preventing rectangular circuits from overlapping, with fixed and rotatable variants. My focus was constraint programming and Python solver comparisons; the team explored MiniZinc constraints, symmetry handling and search strategies alongside SMT and MIP approaches.
+Finds passages that answer comparative questions ("is X better than Y?") and classifies their stance. Compares keyword, dense, hybrid and MonoT5-reranked search over a large passage corpus: hybrid fusion gave the best recall, neural reranking the best top-five ranking.
 
 ### [Video context pipeline](https://github.com/Valendrew/video-context-pipeline)
 
 `Python` · `Pydantic` · `HTTPX` · `Async` · `Dependency planning`
 
-A Python library and local browser builder for assembling transcription, video-understanding, metadata, media and text services. The documented architecture uses typed asynchronous configuration with Pydantic, dependency-based service planning and HTTPX provider adapters, with bounded retries, cancellation and owned-file cleanup. The browser builder exposes dependency graphs and JSON configuration export.
+A Python library that turns a video link into a transcript, a visual description, metadata and media, so an application can use videos without handling the downloading and processing itself. Steps run in dependency order with bounded retries and cleanup, and a local browser builder shows each pipeline and exports its configuration.
 
 [All public repositories](https://github.com/Valendrew?tab=repositories)
