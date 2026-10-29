@@ -14,7 +14,7 @@ git push -u origin main
 
 If a remote is already attached, inspect `git remote -v` and skip `remote add` when it is correct. Never replace the parent repository's remote. Later updates use `git add .`, `git commit`, and `git push` from this directory.
 
-GitHub displays the root `README.md` on the profile because this public repository matches the username. No Pages configuration is needed here. Portfolio and CV links become live after the separate website is published.
+GitHub displays the root `README.md` on the profile because this public repository matches the username. No Pages configuration is needed here. The portfolio link becomes live after the separate website is published.
 
 Edit `README.md` directly and keep its project descriptions aligned with the website. This `SETUP.md` is maintenance documentation, not profile content.
 

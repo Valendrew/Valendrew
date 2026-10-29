@@ -4,7 +4,7 @@ AI Computer Vision Engineer working across model development, geometric vision a
 
 I like building things when I have a [stupid real problem to fix](https://xkcd.com/1319/).
 
-[Portfolio](https://valendrew.github.io/) · [Read CV](https://valendrew.github.io/cv/) · [LinkedIn](https://www.linkedin.com/in/andrea-valente0)
+[Portfolio](https://valendrew.github.io/) · [LinkedIn](https://www.linkedin.com/in/andrea-valente0)
 
 ## Selected public projects
 
